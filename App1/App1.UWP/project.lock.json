@@ -22272,16 +22272,16 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "D:\\Development\\App1\\App1\\App1.UWP\\App1.Forms.Uwp.csproj",
+      "projectUniqueName": "D:\\Development\\App1\\Git\\App1\\App1.UWP\\App1.Forms.Uwp.csproj",
       "projectName": "App1.Forms.Uwp",
-      "projectPath": "D:\\Development\\App1\\App1\\App1.UWP\\App1.Forms.Uwp.csproj",
-      "projectJsonPath": "D:\\Development\\App1\\App1\\App1.UWP\\project.json",
+      "projectPath": "D:\\Development\\App1\\Git\\App1\\App1.UWP\\App1.Forms.Uwp.csproj",
+      "projectJsonPath": "D:\\Development\\App1\\Git\\App1\\App1.UWP\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "uap10.0": {
           "projectReferences": {
-            "D:\\Development\\App1\\App1\\App1\\App.Forms.Shared.csproj": {
-              "projectPath": "D:\\Development\\App1\\App1\\App1\\App.Forms.Shared.csproj"
+            "D:\\Development\\App1\\Git\\App1\\App1\\App.Forms.Shared.csproj": {
+              "projectPath": "D:\\Development\\App1\\Git\\App1\\App1\\App.Forms.Shared.csproj"
             }
           }
         }

@@ -1,19 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
 namespace App1.UWP
@@ -40,9 +30,9 @@ namespace App1.UWP
         /// <param name="e">Details about the launch request and process.</param>
         protected override async void OnLaunched(LaunchActivatedEventArgs e)
         {
-            var dialog =  new Windows.UI.Popups.MessageDialog("Start via template or plain?");
-            dialog.Commands.Add(new UICommand("Template", command => this.StartTemplateWise(e)));
-            dialog.Commands.Add(new UICommand("Plain", command => this.StartPlain(e)));
+            var dialog =  new Windows.UI.Popups.MessageDialog("Start with rootelement?");
+            dialog.Commands.Add(new UICommand("Frame", command => this.StartTemplateWise(e)));
+            dialog.Commands.Add(new UICommand("Page", command => this.StartPlain(e)));
 
             await dialog.ShowAsync();
 
