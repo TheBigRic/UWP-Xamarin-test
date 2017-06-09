@@ -15,15 +15,15 @@ App1
 ===============
 
 - A stripped Xamarin Forms master-detail template app, with only a UWP project and the PCL
-- When the App starts, a popup will show what to use as rootelement - a Frame or a Page`
-- With the Frame, it runs as expected
-- With the Page, it hits an exception (without stacktrace!!)
+- When the App starts, a popup will show what to use as rootelement - a `Frame` or a `Page`
+- With the `Frame`, it runs as expected
+- With the `Page`, it hits an exception (without stacktrace!!)
 
 App2
 ===============
 
 - A blank UWP app without Xamarin Forms
-- Rootelement set to page
-- CommandBar with iconless AppBarButton
+- Rootelement set to `Page`
+- `CommandBar` with iconless `AppBarButton`
 
 Runs without exceptions
